@@ -1,0 +1,182 @@
+{
+  "id": "Kumsal Obuz",
+  "website": "http://denizkumsal.com",
+  "github": "https://github.com/kubarium",
+  "linkedin": "https://linkedin.com/in/denizkumsal/",
+  "email": "iam@denizkumsal.com",
+  "summary": [
+    "Experienced Assistant Director and skilled Front End Web Developer with extensive experience in planning, coding and maintaining web and desktop applications. Capable of using a variety of technologies including but not limited to XML, APIs, Python, Blender, Unity and C#."
+  ],
+  "highlights": [
+    "10+ years of experience in designing interfaces and building applications.",
+    "Self taught, hardworking, well organized and detail oriented.",
+    "Highly motivated and inspirational in leading and managing others.",
+    "Valued member of the management team thanks to identifying clear goals.",
+    "Excellent bug solver and troubleshooter. Highly creative in developing workarounds."
+  ],
+  "notableProjects": [
+    {
+      "title": "Industry Giant 2 Production Cost/Profitability Calculator",
+      "url": "https://github.com/kubarium/industry-giant-2",
+      "tech": [
+        "reactjs",
+        "react-redux",
+        "react-bootstrap",
+        "csv",
+        "json"
+      ],
+      "summary": [
+        "This application calculates production costs and profitability of final products based on raw ingredients. The ingredients are either used directly in one of the three steps of the production line or they are used as part of a by-product. So, the final cost calculation combines all interim costs and compares it to the final product's sale price to give you the real profit."
+      ],
+      "description": [
+        "Deployed the application to https://kubarium.github.io/industry-giant-2/"
+      ]
+    },
+    {
+      "title": "There Be Monsters",
+      "url": "https://github.com/kubarium/there-be-monsters",
+      "tech": [
+        "reactjs",
+        "react-redux",
+        "react-bootstrap",
+        "heroku",
+        "json",
+        "xml",
+        "regex"
+      ],
+      "summary": [
+        "D&D 5E Monster Stats in a digital format."
+      ],
+      "description": [
+        "Deployed the application to Heroku: http://therebemonsters.herokuapp.com"
+      ]
+    },
+    {
+      "title": "Eve Incinerator",
+      "url": "https://github.com/kubarium/Eve-Incinerator",
+      "tech": [
+        "python",
+        "flask",
+        "sqlite",
+        "html",
+        "css",
+        "twitter-bootstrap"
+      ],
+      "summary": [
+        "Filters database records based on a concept similar to ingredient-recipe relationship."
+      ],
+      "description": []
+    }
+  ],
+  "experience": [
+    {
+      "title": "Assistant Design Director - Engage SEO",
+      "date": "Mar 2013 - Current",
+      "tech": [
+        "javascript",
+        "html",
+        "css",
+        "jquery",
+        "xml",
+        "json",
+        "fireworks",
+        "jira",
+        "evolphin-zoom",
+        "gulp",
+        "python",
+        "flask"
+      ],
+      "summary": [
+        "When The Infinity Network was renamed Engage SEO, I took the Assistant Director role. I'm currently running a team of 7 people that consists of front end developers, web designers and content administrators."
+      ],
+      "description": [
+        "Developed an email preview and testing tool that mimicked the real experience by temporarily replacing template variables with their expected values.",
+        "Created a build and minification process with Gulp that respected in-house code dependencies.",
+        "Presented new solutions for our existing problems to other department directors, so that a more solid and rapid development cycle could be established.",
+        "Decreased the number of bugs the Design Team received from 450 to 200 and then to 50 in two consecutive years.",
+        "Constantly optimized existing workflow to increase the team's efficiency and deliver better products",
+        "Taught cross skills to team members and encouraged them to tutor each other.",
+        "Maintained standards and quality by establishing an internal peer review process.",
+        "Investigated a new version control system for the team and coordinated its setup",
+        "Conducted interviews and reviewed interview exam results to filter applicants."
+      ]
+    },
+    {
+      "title": "Design Team Lead - The Infinity Network",
+      "date": "Apr 2012 - Mar 2013",
+      "tech": [
+        "json",
+        "ajax",
+        "flex",
+        "mysql",
+        "php",
+        "actionscript",
+        "jquery",
+        "html",
+        "css"
+      ],
+      "summary": [
+        "Led weekly training sessions, presenting Actionscript, Javascript and HTML/CSS to a team of 20 people. Conducted one-on-one tutoring sessions. Contributed to the company Wiki site with useful links to libraries, code snippets and best practices."
+      ],
+      "description": [
+        "Implemented Flash and Javascript framework to streamline member signup process.",
+        "Coded against an API that provides real time search, location detection and profile detail; built UI to display results.",
+        "Extended and enhanced default Flash UI Components and integrated them as part of the normal workflow.",
+        "Trained 2 team members with design backgrounds for front end developer positions.",
+        "Prepared interview exam questions and conducted interviews."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "B.S. Computer Science",
+      "location": "Galatasaray University, Istanbul",
+      "date": "2006"
+    },
+    {
+      "title": "Gamification",
+      "location": "University of Pennsylvania",
+      "date": "2014"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Pythonicus",
+      "summary": [
+        "A 3 part article about how I scraped data from nosql-database.org with BeautifulSoup in Python and displayed a graph of NoSQL databases using a NoSQL and graph database, Neo4J."
+      ],
+      "url": "http://denizkumsal.com/portfolio/pythonicus/"
+    },
+    {
+      "title": "Are you Gulpible?",
+      "summary": [
+        "A custom Gulp solution for my company, where I present an unconventional way of reaching files for Gulp to collect, combine and minify."
+      ],
+      "url": "http://denizkumsal.com/portfolio/are-you-gulpible/"
+    }
+  ],
+  "references": [
+    {
+      "name": "Andrew Nolan",
+      "summary": [
+        "Kumsal is a great mentor to the people he manages. He strives to create a culture of learning, places great emphasis of professional growth and constantly encourages his team to share their skill with one another."
+      ],
+      "role": "Front End Web Developer"
+    },
+    {
+      "name": "Elric Best",
+      "summary": [
+        "It's always a breath of fresh air to be assigned to projects together; it's assured the project will meet business requirements and go the extra distance.",
+        "Kumsal is very skilled in planning, organizing and visualizing even the most complex tasks. He understands the deliverables from high-end plans, down to the detailed technical tasks."
+      ],
+      "role": "Web Developer"
+    },
+    {
+      "name": "Paul Bradley",
+      "summary": [
+        "I worked directly with Kumsal on a large web application done in JavaScript for around three months. In that time he taught me how to create a JS library and API using plain JS and JQuery. I learned how to use: complex regular expressions, JS templates with JSRender, JS namespacing, event flow, closures, getter/setters, advanced CSS techniques, sprite sheets and debugging. There was no problem that Kumsal couldn't solve or a question he couldn't find an answer to. Kumsal's dedication to his work is admirable."
+      ],
+      "role": "Web Application Developer"
+    }
+  ]
+}
