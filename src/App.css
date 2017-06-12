@@ -1,0 +1,59 @@
+html{
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+body {
+  color: #424242;
+  font-size: 1.3rem;
+}
+p{
+  line-height: 1.15%;
+}
+a{
+  font-weight: bold;
+  color: #007FFF;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #007FFF;
+}
+
+a:hover{
+  color:#424242;
+}
+
+main {
+  max-width: 600px;
+  padding: 35px 110px;
+  margin: 2% auto;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.55);
+}
+
+header h1 {
+  border-bottom: 5px solid #424242;
+  padding-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.8rem;
+  text-transform: uppercase;
+}
+
+header ul{
+  padding: 20px 0 10px 0;
+}
+
+header li{
+  display: inline;
+}
+
+header li::after{
+  content: " | ";
+  color: red;
+}
+
+header li:last-child::after{
+  content: "";
+}
