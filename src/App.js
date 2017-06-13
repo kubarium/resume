@@ -3,7 +3,10 @@ import './App.css';
 
 import React, {Component} from 'react';
 
+import Article from './Article';
+import Description from './Description';
 import Resume from './resume.json';
+import Section from './Section';
 import Summary from './Summary';
 
 class App extends Component {
@@ -25,7 +28,18 @@ class App extends Component {
           </ul>
           <Summary entries={Resume.summary}/>
         </header>
-        <article></article>
+        <Article title="Highlights">
+          <Description entries={Resume.highlights}/>
+        </Article>
+        <Article title="Notable Projects">
+          {Resume
+            .notableProjects
+            .map((project, index) => <Section key={index} project={project}></Section>)}
+        </Article>
+        {/*<Title
+            primary={Resume.experience[0].title}
+            secondary={Resume.experience[0].date} />
+          */}
         <footer></footer>
       </main>
     );

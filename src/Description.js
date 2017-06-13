@@ -5,7 +5,7 @@ const Description = (props) => {
         <ul className="description">
             {props
                 .entries
-                .map((entry, index) => <li key={index}>{entry}</li>)}
+                .map((entry, index) => <li key={index}><span>{entry}</span></li>)}
         </ul>
     )
 }
