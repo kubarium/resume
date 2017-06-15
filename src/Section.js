@@ -8,9 +8,9 @@ const Section = (props) => {
     return (
         <section className="section">
             <Title primary={props.project.title} secondary={<a href={props.project.url}><i className="material-icons">open_in_new</i></a>} />
-            <Tech skills={props.project.tech} indicator=">" />
-            <Summary entries={props.project.summary} />
-            <Description entries={props.project.description}/>
+            {props.project.tech && <Tech skills={props.project.tech} indicator=">" />}
+            {props.project.summary && <Summary entries={props.project.summary} />}
+            {props.project.description && <Description entries={props.project.description} />}
 {/*
             {props
                 .entries
