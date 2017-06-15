@@ -36,10 +36,26 @@ class App extends Component {
             .notableProjects
             .map((project, index) => <Section key={index} project={project}></Section>)}
         </Article>
-        {/*<Title
-            primary={Resume.experience[0].title}
-            secondary={Resume.experience[0].date} />
-          */}
+        <Article title="Experience">
+          {Resume
+            .experience
+            .map((experience, index) => <Section key={index} project={experience}></Section>)}
+        </Article>
+        <Article title="Education">
+          {Resume
+            .education
+            .map((education, index) => <Section key={index} project={education}></Section>)}
+        </Article>
+        <Article title="Publications">
+          {Resume
+            .publications
+            .map((publication, index) => <Section key={index} project={publication}></Section>)}
+        </Article>
+        <Article title="References">
+          {Resume
+            .references
+            .map((reference, index) => <Section key={index} project={reference}></Section>)}
+        </Article>
         <footer></footer>
       </main>
     );
