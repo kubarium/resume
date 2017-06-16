@@ -119,6 +119,38 @@ p {
   margin: 25px 0 10px 0;
 }
 
+@media only screen and (max-width: 800px) {
+  main {
+    padding: 25px;
+    -webkit-box-shadow: inherit;
+    -moz-box-shadow: inherit;
+    box-shadow: inherit;
+  }
+  h3 span {
+    display: block;
+    margin: 5px 0;
+    float: inherit;
+  }
+  header li {
+    display: inherit;
+  }
+  header li::after {
+    content: none;
+  }
+  header li:first-child::before {
+    content: "◷ ";
+    color: crimson;
+  }
+  header li::before {
+    content: "◶ ";
+    color: crimson;
+  }
+  header li:last-child::before {
+    content: "◵ ";
+    color: crimson;
+  }
+}
+
 @media print {
   main {
     padding-bottom: 0;
