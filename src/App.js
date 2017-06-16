@@ -20,10 +20,10 @@ class App extends Component {
               <a href={`mailto:${Resume.email}`}>{Resume.email}</a>
             </li>
             <li>
-              <a href={Resume.github}>{Resume.github}</a>
+              <a target="_blank" href={Resume.github}>{Resume.github}</a>
             </li>
             <li>
-              <a href={Resume.linkedin}>{Resume.linkedin}</a>
+              <a target="_blank" href={Resume.linkedin}>{Resume.linkedin}</a>
             </li>
           </ul>
           <Summary entries={Resume.summary}/>
@@ -34,29 +34,28 @@ class App extends Component {
         <Article title="Notable Projects">
           {Resume
             .notableProjects
-            .map((project, index) => <Section key={index} project={project}></Section>)}
+            .map((project, index) => <Section key={index} data={project}></Section>)}
         </Article>
-        <Article title="Experience">
+        <Article title="Experience" className="page">
           {Resume
             .experience
-            .map((experience, index) => <Section key={index} project={experience}></Section>)}
+            .map((experience, index) => <Section key={index} data={experience}></Section>)}
         </Article>
-        <Article title="Education">
+        <Article title="Education" className="page">
           {Resume
             .education
-            .map((education, index) => <Section key={index} project={education}></Section>)}
+            .map((education, index) => <Section key={index} data={education}></Section>)}
         </Article>
         <Article title="Publications">
           {Resume
             .publications
-            .map((publication, index) => <Section key={index} project={publication}></Section>)}
+            .map((publication, index) => <Section key={index} data={publication}></Section>)}
         </Article>
         <Article title="References">
           {Resume
             .references
-            .map((reference, index) => <Section key={index} project={reference}></Section>)}
+            .map((reference, index) => <Section key={index} data={reference}></Section>)}
         </Article>
-        <footer></footer>
       </main>
     );
   }
