@@ -154,6 +154,9 @@ p {
 @media print {
   main {
     padding-bottom: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
   .page {
     padding-top: 35px;
