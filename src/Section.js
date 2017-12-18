@@ -9,7 +9,7 @@ const Section = (props) => {
     const data = props.data
     let secondary = null
     if (data.url)
-        secondary = <a target="_blank" href={ data.url }>
+        secondary = <a target="_blank" rel="noopener noreferrer" href={ data.url }>
                       <ReactSVG path="external-link.svg" style={ { width: 24 } } />
                     </a>
     if (data.date)
