@@ -14,8 +14,7 @@
     "Valued member of the management team thanks to identifying clear goals.",
     "Excellent bug solver and troubleshooter. Highly creative in developing workarounds."
   ],
-  "notableProjects": [
-    {
+  "notableProjects": [{
       "title": "Industry Giant 2 Production Cost/Profitability Calculator",
       "url": "https://github.com/kubarium/industry-giant-2",
       "tech": ["reactjs", "react-redux", "react-bootstrap", "csv", "json"],
@@ -53,8 +52,7 @@
       "description": []
     }
   ],
-  "experience": [
-    {
+  "experience": [{
       "title": "Assistant Design Director - <br>Engage SEO",
       "date": "Mar 2013 - Current",
       "tech": [
@@ -112,8 +110,7 @@
       ]
     }
   ],
-  "education": [
-    {
+  "education": [{
       "title": "B.S. Computer Science",
       "location": "Galatasaray University, Istanbul",
       "date": "2006"
@@ -124,8 +121,7 @@
       "date": "2014"
     }
   ],
-  "publications": [
-    {
+  "publications": [{
       "title": "Pythonicus",
       "summary": [
         "A 3 part article about how I scraped data from nosql-database.org with BeautifulSoup in Python and displayed a graph of NoSQL databases using a NoSQL and graph database, Neo4J."
@@ -140,8 +136,7 @@
       "url": "http://denizkumsal.com/portfolio/are-you-gulpible/"
     }
   ],
-  "references": [
-    {
+  "references": [{
       "title": "Andrew Nolan",
       "summary": [
         "Kumsal is a great mentor to the people he manages. He strives to create a culture of learning, places great emphasis of professional growth and constantly encourages his team to share their skill with one another."
@@ -165,8 +160,7 @@
     }
   ],
   "following": {
-    "podcasts": [
-      {
+    "podcasts": [{
         "title": "Developer On Fire",
         "summary": ["Inspiring software developers tell their stories."],
         "url": "http://developeronfire.com/episodes"
@@ -174,7 +168,7 @@
       {
         "title": "Javascript Jabber",
         "summary": [
-          "JavaScript Jabber is a weekly discussion about JavaScript, front-end development, community, careers, and frameworks."
+          "JJ is a weekly discussion about JavaScript, front-end development, community, careers, and frameworks."
         ],
         "url": "https://devchat.tv/js-jabber"
       },
@@ -191,8 +185,7 @@
         "url": "http://thedebuglog.com/"
       }
     ],
-    "meetups": [
-      {
+    "meetups": [{
         "title": "Toronto Vue.js Meetup",
         "url": "https://www.meetup.com/Toronto-Vue-js-Meetup/"
       },
@@ -211,10 +204,6 @@
       {
         "title": "Coffee & Code",
         "url": "https://www.meetup.com/Coffee-Code/"
-      },
-      {
-        "title": "Neo4J",
-        "url": "https://www.meetup.com/meetup-group-EtfBEHIr/"
       }
     ]
   }
