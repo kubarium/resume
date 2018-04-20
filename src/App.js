@@ -1,13 +1,13 @@
-import "./reset.css";
-import "./App.css";
+import "./reset.css"
+import "./App.css"
 
-import React, { Component } from "react";
+import React, { Component } from "react"
 
-import Article from "./Article";
-import Description from "./Description";
-import Resume from "./resume.json";
-import Section from "./Section";
-import Summary from "./Summary";
+import Article from "./Article"
+import Description from "./Description"
+import Resume from "./resume.json"
+import Section from "./Section"
+import Summary from "./Summary"
 
 class App extends Component {
   render() {
@@ -25,11 +25,7 @@ class App extends Component {
               </a>
             </li>
             <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={Resume.linkedin}
-              >
+              <a target="_blank" rel="noopener noreferrer" href={Resume.linkedin}>
                 {Resume.linkedin}
               </a>
             </li>
@@ -40,43 +36,29 @@ class App extends Component {
           <Description entries={Resume.highlights} />
         </Article>
         <Article title="Notable Projects">
-          {Resume.notableProjects.map((project, index) => (
-            <Section key={index} data={project} />
-          ))}
+          {Resume.notableProjects.map((project, index) => <Section key={index} data={project} />)}
         </Article>
         <Article title="Experience" className="page">
-          {Resume.experience.map((experience, index) => (
-            <Section key={index} data={experience} />
-          ))}
+          {Resume.experience.map((experience, index) => <Section key={index} data={experience} />)}
         </Article>
         <Article title="Education" className="page">
-          {Resume.education.map((education, index) => (
-            <Section key={index} data={education} />
-          ))}
+          {Resume.education.map((education, index) => <Section key={index} data={education} />)}
         </Article>
         <Article title="Followed Podcasts">
-          {Resume.following.podcasts.map((podcast, index) => (
-            <Section key={index} data={podcast} />
-          ))}
+          {Resume.following.podcasts.map((podcast, index) => <Section key={index} data={podcast} />)}
         </Article>
         <Article title="Attended Meetups">
-          {Resume.following.meetups.map((meetup, index) => (
-            <Section key={index} data={meetup} />
-          ))}
+          {Resume.following.meetups.map((meetup, index) => <Section key={index} data={meetup} />)}
         </Article>
         <Article title="Publications" className="page">
-          {Resume.publications.map((publication, index) => (
-            <Section key={index} data={publication} />
-          ))}
+          {Resume.publications.slice(0, 3).map((publication, index) => <Section key={index} data={publication} />)}
         </Article>
         <Article title="References">
-          {Resume.references.map((reference, index) => (
-            <Section key={index} data={reference} />
-          ))}
+          {Resume.references.map((reference, index) => <Section key={index} data={reference} />)}
         </Article>
       </main>
-    );
+    )
   }
 }
 
-export default App;
+export default App
