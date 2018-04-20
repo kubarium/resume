@@ -1,13 +1,13 @@
-import "./reset.css"
-import "./App.css"
+import "./reset.css";
+import "./App.css";
 
-import React, { Component } from "react"
+import React, { Component } from "react";
 
-import Article from "./Article"
-import Description from "./Description"
-import Resume from "./resume.json"
-import Section from "./Section"
-import Summary from "./Summary"
+import Article from "./Article";
+import Description from "./Description";
+import Resume from "./resume.json";
+import Section from "./Section";
+import Summary from "./Summary";
 
 class App extends Component {
   render() {
@@ -57,8 +57,8 @@ class App extends Component {
           {Resume.references.map((reference, index) => <Section key={index} data={reference} />)}
         </Article>
       </main>
-    )
+    );
   }
 }
 
-export default App
+export default App;
