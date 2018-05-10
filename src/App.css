@@ -118,7 +118,7 @@ p {
 }
 
 .title {
-  margin: 15px 0 10px 0;
+  margin: 25px 0 10px 0;
 }
 @media only screen and (max-width: 800px) {
   main {
@@ -178,4 +178,7 @@ p {
     padding-top: 35px;
     page-break-before: always;
   }
+  .title {
+  margin: 15px 0 10px 0;
+}
 }
