@@ -36,7 +36,7 @@ class App extends Component {
           <Description entries={Resume.highlights} />
         </Article>
         <Article title="Notable Projects">
-          {Resume.notableProjects.map((project, index) => <Section key={index} data={project} />)}
+          {Resume.notableProjects.slice(0, 3).map((project, index) => <Section key={index} data={project} />)}
         </Article>
         <Article title="Experience" className="page">
           {Resume.experience.map((experience, index) => <Section key={index} data={experience} />)}
