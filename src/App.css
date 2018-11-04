@@ -63,9 +63,16 @@ h3 {
   font-weight: bold;
   font-size: 1.5rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
+.title {
+  margin: 25px 0 10px 0;
+}
+.external-link {
+  width: 24px;
+}
 h3 br {
   display: none;
 }
@@ -117,9 +124,6 @@ p {
   margin: 15px 0;
 }
 
-.title {
-  margin: 25px 0 10px 0;
-}
 @media only screen and (max-width: 800px) {
   main {
     padding: 25px;
@@ -168,7 +172,7 @@ p {
 @media print {
   main {
     padding-bottom: 0;
-    padding-top:35px;
+    padding-top: 35px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -179,6 +183,9 @@ p {
     page-break-before: always;
   }
   .title {
-  margin: 15px 0 10px 0;
-}
+    margin: 15px 0 10px 0;
+  }
+  .external-link {
+    width: 20px;
+  }
 }
