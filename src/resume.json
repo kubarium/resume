@@ -5,7 +5,7 @@
   "linkedin": "https://linkedin.com/in/denizkumsal",
   "email": "iam@denizkumsal.com",
   "summary": [
-    "Experienced Assistant Director and skilled Front End Web Developer with extensive experience in planning, coding and maintaining web and desktop applications. Capable of using a variety of technologies including but not limited to React, ES6, Node, SASS, Regex, APIs, Python, Blender, Unity and C#."
+    "Experienced Assistant Director and skilled Front End Web Developer with extensive experience in planning, coding and maintaining web and desktop applications. Capable of using a variety of technologies including but not limited to Vue, ES6, Node, React, SASS, Regex, APIs, Python, Blender, Unity and C#."
   ],
   "highlights": [
     "10+ years of experience in designing interfaces and building applications.",
@@ -23,6 +23,26 @@
       "description": [
         "Lets you chain your regular expressions so the output is used as new input in each turn.",
         "Deployed the application to https://kubarium.github.io/regex-train/"
+      ]
+    },
+    {
+      "title": "I am bored",
+      "url": "https://github.com/kubarium/i-am-bored",
+      "tech": ["vue", "vuex", "vuetify", "api"],
+      "summary": ["A user friendly interface for https://www.boredapi.com"],
+      "description": [
+        "Made the data from boredapi.com more user friendly by offering filters.",
+        "Deployed the application to https://kubarium.github.io/i-am-bored/"
+      ]
+    },
+    {
+      "title": "Descriptor Generator",
+      "url": "https://github.com/kubarium/descriptor-generator",
+      "tech": ["vue", "react", "local-storage"],
+      "summary": ["A generator that produces compound names using two lists."],
+      "description": [
+        "Built the application first with React, then rebuilt it with Vue later.",
+        "Deployed the application to https://kubarium.github.io/descriptor-generator/"
       ]
     },
     {
@@ -53,20 +73,7 @@
     {
       "title": "Assistant Design Director - <br>Engage SEO",
       "date": "Mar 2013 - Current",
-      "tech": [
-        "javascript",
-        "html",
-        "css",
-        "jquery",
-        "xml",
-        "json",
-        "fireworks",
-        "jira",
-        "evolphin-zoom",
-        "gulp",
-        "python",
-        "flask"
-      ],
+      "tech": ["javascript", "html", "css", "jquery", "xml", "json", "fireworks", "jira", "evolphin-zoom", "gulp", "python", "flask"],
       "summary": [
         "When The Infinity Network was renamed Engage SEO, I took the Assistant Director role. I'm currently running a team of 7 people that consists of front end developers, web designers and content administrators."
       ],
@@ -112,9 +119,21 @@
   ],
   "publications": [
     {
+      "title": "A Simple Descriptor Generator with Vue",
+      "summary": ["Create names like 'Support Specialist' out of two given lists."],
+      "url": "http://denizkumsal.com/programming/how-to-create-a-simple-descriptor-generator-with-vue/"
+    },
+    {
       "title": "Trifecta: Filter, Map, Reduce",
       "summary": ["How I used filter, map and reduce to parse a list of books from Goodreads."],
       "url": "http://denizkumsal.com/programming/trifecta-filter-map-reduce/"
+    },
+    {
+      "title": "A Better Safari Books Online Experience",
+      "summary": [
+        "A better curated layout for perusing the video courses on the website. It offers keyboard shortchuts to alter playback location, volume and speed value. Additionally, it stores where you left off as a bookmark."
+      ],
+      "url": "http://denizkumsal.com/programming/a-better-safari-books-online-experience/"
     },
     {
       "title": "Using Reduce to Remove Duplicates",
@@ -130,9 +149,7 @@
     },
     {
       "title": "Are you Gulpible?",
-      "summary": [
-        "A custom Gulp solution for my company, where I present an unconventional way of reaching files for Gulp to collect, combine and minify."
-      ],
+      "summary": ["A custom Gulp solution for my company, where I present an unconventional way of reaching files for Gulp to collect, combine and minify."],
       "url": "http://denizkumsal.com/portfolio/are-you-gulpible/"
     }
   ],
@@ -161,6 +178,23 @@
     }
   ],
   "following": {
+    "conferences": [
+      {
+        "title": "VueConf TO",
+        "summary": ["https://vuetoronto.com/schedule"],
+        "url": "https://vuetoronto.com/"
+      },
+      {
+        "title": "EGLX Developer Conference",
+        "summary": ["https://eglx.ca/developer-conference-schedule/"],
+        "url": "https://eglx.ca/developer-conference/"
+      },
+      {
+        "title": "Web Unleashed 2017",
+        "summary": ["https://fitc.ca/event/webu17/presentations/"],
+        "url": "https://fitc.ca/event/webu17/"
+      }
+    ],
     "podcasts": [
       {
         "title": "Developer On Fire",
@@ -169,17 +203,13 @@
       },
       {
         "title": "Javascript Jabber",
-        "summary": [
-          "JJ is a weekly discussion about JavaScript, front-end development, community, careers, and frameworks."
-        ],
+        "summary": ["JJ is a weekly podcast about JS, front-end development, community, careers, and frameworks."],
         "url": "https://devchat.tv/js-jabber"
       },
       {
-        "title": "React Native Radio",
-        "summary": [
-          "React Native Radio is a weekly discussion of the tools, techniques, and technologies used to build mobile applications with JavaScript and React done by developers regularly using React Native."
-        ],
-        "url": "https://devchat.tv/react-native-radio"
+        "title": "Views on Vue",
+        "summary": ["VoV is a weekly discussion of the tools, techniques, and technologies used in Vue community."],
+        "url": "https://devchat.tv/views-on-vue/"
       },
       {
         "title": "The Debug Log",
@@ -199,10 +229,6 @@
       {
         "title": "GraphQL Toronto",
         "url": "https://www.meetup.com/GraphQL-Toronto/"
-      },
-      {
-        "title": "React Toronto",
-        "url": "https://www.meetup.com/React-Javascript-Toronto/"
       },
       {
         "title": "Coffee & Code",
