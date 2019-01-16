@@ -16,14 +16,11 @@
   ],
   "notableProjects": [
     {
-      "title": "RegEx Train",
-      "url": "https://github.com/kubarium/regex-train",
-      "tech": ["regex", "reactjs", "react-redux"],
-      "summary": ["Chain RegEx rules end to end."],
-      "description": [
-        "Lets you chain your regular expressions so the output is used as new input in each turn.",
-        "Deployed the application to https://kubarium.github.io/regex-train/"
-      ]
+      "title": "Eisenhower Box",
+      "url": "https://github.com/kubarium/eisenhower-box",
+      "tech": ["vue", "vuex", "vuetify", "local-storage"],
+      "summary": ["What is important is seldom urgent and what is urgent is seldom important. - Dwight D. Eisenhower"],
+      "description": ["A simple Vue application that outsmarts a Todo list.", "Deployed the application to https://kubarium.github.io/eisenhower-box/"]
     },
     {
       "title": "I am bored",
@@ -53,6 +50,16 @@
         "This application calculates production costs and profitability of final products based on raw ingredients. The ingredients are either used directly in one of the three steps of the production line or they are used as part of a by-product. So, the final cost calculation combines all interim costs and compares it to the final product's sale price to give you the real profit."
       ],
       "description": ["Deployed the application to https://kubarium.github.io/industry-giant-2/"]
+    },
+    {
+      "title": "RegEx Train",
+      "url": "https://github.com/kubarium/regex-train",
+      "tech": ["regex", "reactjs", "react-redux"],
+      "summary": ["Chain RegEx rules end to end."],
+      "description": [
+        "Lets you chain your regular expressions so the output is used as new input in each turn.",
+        "Deployed the application to https://kubarium.github.io/regex-train/"
+      ]
     },
     {
       "title": "There Be Monsters",
