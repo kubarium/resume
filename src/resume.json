@@ -19,7 +19,7 @@
       "title": "Eisenhower Box",
       "url": "https://github.com/kubarium/eisenhower-box",
       "tech": ["vue", "vuex", "vuetify", "local-storage"],
-      "summary": ["What is important is seldom urgent and what is urgent is seldom important. - Dwight D. Eisenhower"],
+      "summary": ["What is important is seldom urgent and what is urgent is seldom important. - Dwight Eisenhower"],
       "description": ["A simple Vue application that outsmarts a Todo list.", "Deployed the application to https://kubarium.github.io/eisenhower-box/"]
     },
     {
