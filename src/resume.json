@@ -20,7 +20,10 @@
       "url": "https://github.com/kubarium/eisenhower-box",
       "tech": ["vue", "vuex", "vuetify", "local-storage"],
       "summary": ["What is important is seldom urgent and what is urgent is seldom important. - Dwight Eisenhower"],
-      "description": ["A simple Vue application that outsmarts a Todo list.", "Deployed the application to https://kubarium.github.io/eisenhower-box/"]
+      "description": [
+        "A simple Vue application that outsmarts a Todo list.",
+        "Deployed the application to https://kubarium.github.io/eisenhower-box/"
+      ]
     },
     {
       "title": "I am bored",
@@ -80,11 +83,12 @@
     {
       "title": "Assistant Design Director - <br>Engage SEO",
       "date": "Mar 2013 - Current",
-      "tech": ["javascript", "html", "css", "jquery", "xml", "json", "fireworks", "jira", "evolphin-zoom", "gulp", "python", "flask"],
+      "tech": ["javascript", "html", "css", "vue", "firebase", "jira", "evolphin-zoom", "gulp"],
       "summary": [
         "When The Infinity Network was renamed Engage SEO, I took the Assistant Director role. I'm currently running a team of 7 people that consists of front end developers, web designers and content administrators."
       ],
       "description": [
+        "Built a Firebase-Vue application that consolidates the information for over 1300 sites we maintain.",
         "Developed an email preview and testing tool that mimicked the real experience by temporarily replacing template variables with their expected values.",
         "Created a build and minification process with Gulp that respected in-house code dependencies.",
         "Presented new solutions for our existing problems to other department directors, so that a more solid and rapid development cycle could be established.",
@@ -156,7 +160,9 @@
     },
     {
       "title": "Are you Gulpible?",
-      "summary": ["A custom Gulp solution for my company, where I present an unconventional way of reaching files for Gulp to collect, combine and minify."],
+      "summary": [
+        "A custom Gulp solution for my company, where I present an unconventional way of reaching files for Gulp to collect, combine and minify."
+      ],
       "url": "http://denizkumsal.com/portfolio/are-you-gulpible/"
     }
   ],
