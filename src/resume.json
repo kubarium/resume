@@ -5,7 +5,7 @@
   "linkedin": "https://linkedin.com/in/denizkumsal",
   "email": "iam@denizkumsal.com",
   "summary": [
-    "Experienced Assistant Director and skilled Front End Web Developer with extensive experience in planning, coding and maintaining web and desktop applications. Capable of using a variety of technologies including but not limited to Vue, ES6, Node, React, SASS, Regex, APIs, Python, Blender, Unity and C#."
+    "Experienced Assistant Director and skilled Front End Web Developer with extensive experience in planning, coding and maintaining web and desktop applications. Capable of using a variety of technologies including but not limited to Vue, ES6, Node, SASS, Regex, APIs, Python, Blender, Godot and C#."
   ],
   "highlights": [
     "10+ years of experience in designing interfaces and building applications.",
@@ -15,6 +15,40 @@
     "Excellent bug solver and troubleshooter. Highly creative in developing workarounds."
   ],
   "notableProjects": [
+    {
+      "title": "There Be Monsters",
+      "url": "https://github.com/kubarium/there-be-monsters",
+      "tech": [
+        "vue",
+        "vuex",
+        "vuetify",
+        "json",
+        "ghpages",
+        "local-storage"
+      ],
+      "summary": [
+        "D&D 5E Monster Stats in a digital format."
+      ],
+      "description": [
+        "https://kubarium.github.io/there-be-monsters/"
+      ]
+    },
+    {
+      "title": "RegEx Train",
+      "url": "https://github.com/kubarium/regex-train",
+      "tech": [
+        "regex",
+        "reactjs",
+        "react-redux"
+      ],
+      "summary": [
+        "Chain RegEx rules end to end."
+      ],
+      "description": [
+        "Lets you chain your regular expressions so the output is used as new input in each turn.",
+        "https://kubarium.github.io/regex-train/"
+      ]
+    },
     {
       "title": "Eisenhower Box",
       "url": "https://github.com/kubarium/eisenhower-box",
@@ -29,7 +63,7 @@
       ],
       "description": [
         "A simple Vue application that outsmarts a Todo list.",
-        "Deployed the application to https://kubarium.github.io/eisenhower-box/"
+        "https://kubarium.github.io/eisenhower-box/"
       ]
     },
     {
@@ -83,41 +117,6 @@
       ]
     },
     {
-      "title": "RegEx Train",
-      "url": "https://github.com/kubarium/regex-train",
-      "tech": [
-        "regex",
-        "reactjs",
-        "react-redux"
-      ],
-      "summary": [
-        "Chain RegEx rules end to end."
-      ],
-      "description": [
-        "Lets you chain your regular expressions so the output is used as new input in each turn.",
-        "Deployed the application to https://kubarium.github.io/regex-train/"
-      ]
-    },
-    {
-      "title": "There Be Monsters",
-      "url": "https://github.com/kubarium/there-be-monsters",
-      "tech": [
-        "reactjs",
-        "react-redux",
-        "react-bootstrap",
-        "heroku",
-        "json",
-        "xml",
-        "regex"
-      ],
-      "summary": [
-        "D&D 5E Monster Stats in a digital format."
-      ],
-      "description": [
-        "Deployed the application to Heroku: http://therebemonsters.herokuapp.com"
-      ]
-    },
-    {
       "title": "Eve Incinerator",
       "url": "https://github.com/kubarium/Eve-Incinerator",
       "tech": [
@@ -137,12 +136,13 @@
   "experience": [
     {
       "title": "Assistant Design Director - <br>Engage SEO",
-      "date": "Mar 2013 - Current",
+      "date": "Mar 2013 - Aug 2020",
       "tech": [
         "javascript",
         "html",
         "css",
         "vue",
+        "vuetify",
         "firebase",
         "jira",
         "evolphin-zoom",
@@ -152,7 +152,7 @@
         "When The Infinity Network was renamed Engage SEO, I took the Assistant Director role. I'm currently running a team of 7 people that consists of front end developers, web designers and content administrators."
       ],
       "description": [
-        "Built a Firebase-Vue application that consolidates the information for over 1300 sites we maintain.",
+        "Built a Firebase-Vue application that consolidates the information for maintaining over 2700 sites.",
         "Developed an email preview and testing tool that mimicked the real experience by temporarily replacing template variables with their expected values.",
         "Created a build and minification process with Gulp that respected in-house code dependencies.",
         "Presented new solutions for our existing problems to other department directors, so that a more solid and rapid development cycle could be established.",
