@@ -37,9 +37,10 @@
       "title": "RegEx Train",
       "url": "https://github.com/kubarium/regex-train",
       "tech": [
-        "regex",
-        "reactjs",
-        "react-redux"
+        "vue",
+        "vuex",
+        "vuetify",
+        "local-storage"
       ],
       "summary": [
         "Chain RegEx rules end to end."
