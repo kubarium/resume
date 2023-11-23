@@ -1,7 +1,7 @@
 import "./reset.css";
 import "./App.css";
 
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 import Article from "./Article";
 import Description from "./Description";
@@ -20,8 +20,8 @@ class App extends Component {
               <a href={`mailto:${Resume.email}`}>{Resume.email}</a>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer" href={Resume.github}>
-                {Resume.github}
+              <a target="_blank" rel="noopener noreferrer" href={Resume.website}>
+                {Resume.website}
               </a>
             </li>
             <li>
@@ -30,55 +30,55 @@ class App extends Component {
               </a>
             </li>
           </ul>
-          <Summary entries={Resume.summary}/>
+          <Summary entries={Resume.summary} />
         </header>
         <Article title="Highlights">
-          <Description entries={Resume.highlights}/>
+          <Description entries={Resume.highlights} />
         </Article>
         <Article title="Notable Projects">
           {Resume
             .notableProjects
             .slice(0, 3)
-            .map((project, index) => <Section key={index} data={project}/>)}
+            .map((project, index) => <Section key={index} data={project} />)}
         </Article>
         <Article title="Experience" className="page">
           {Resume
             .experience
-            .map((experience, index) => <Section key={index} data={experience}/>)}
+            .map((experience, index) => <Section key={index} data={experience} />)}
         </Article>
         <Article title="Education" className="page">
           {Resume
             .education
-            .map((education, index) => <Section key={index} data={education}/>)}
+            .map((education, index) => <Section key={index} data={education} />)}
         </Article>
         <Article title="Followed Podcasts">
           {Resume
             .following
             .podcasts
-            .map((podcast, index) => <Section key={index} data={podcast}/>)}
+            .map((podcast, index) => <Section key={index} data={podcast} />)}
         </Article>
         <Article title="Followed Conferences">
           {Resume
             .following
             .conferences
-            .map((conference, index) => <Section key={index} data={conference}/>)}
+            .map((conference, index) => <Section key={index} data={conference} />)}
         </Article>
         <Article title="Attended Meetups">
           {Resume
             .following
             .meetups
-            .map((meetup, index) => <Section key={index} data={meetup}/>)}
+            .map((meetup, index) => <Section key={index} data={meetup} />)}
         </Article>
         <Article title="Publications" className="page">
           {Resume
             .publications
             .slice(0, 5)
-            .map((publication, index) => <Section key={index} data={publication}/>)}
+            .map((publication, index) => <Section key={index} data={publication} />)}
         </Article>
         <Article title="References">
           {Resume
             .references
-            .map((reference, index) => <Section key={index} data={reference}/>)}
+            .map((reference, index) => <Section key={index} data={reference} />)}
         </Article>
       </main>
     );
